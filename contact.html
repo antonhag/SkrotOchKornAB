@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktformulär</title>
+  </head>
+  <body>
+    <div>
+      <img src="images/image.png" width="600" height="400" />
+      <h1>Skrot och Korn AB</h1>
+    </div>
+    <div style="background-color: #f0f0f0; padding: 8px;">
+      <a href="index.html">Startsida</a>
+      <a href="products.html">Produkter</a>
+      <a href="contactus.html">Kontakta oss</a>
+      <a href="contact.html">Kontaktformulär</a>
+      <a href="media.html">Media</a>
+    </div>
+    <div>
+    <form>
+      <label for="name">Namn</label>
+      <input id="name" name="name" type="text" /><br />
+      <label for="address">Adress</label>
+      <input type="text" id="address" name="address" /><br />
+      <label for="email">E-post</label>
+      <input type="email" id="email" name="email" /><br />
+      <label for="number">Telefonnummer</label>
+      <input type="number" id="number" name="organization"/><br>
+      <input type="radio" id="private" name="organization">
+      <label for="private">Privat</label><br>
+      <input type="radio" id="company" name="organization">
+      <label for="company">Företag</label>
+      <h4>Storlek på företaget</h4>
+      <input type="radio" id="minSize" name="companySize">
+      <label for="minSize">1-100 anställda</label><br>
+      <input type="radio" id="midSize" name="companySize">
+      <label for="midSize">101-1000 anställda</label><br>
+      <input type="radio" name="companySize" id="bigSize">
+      <label for="bigSize">Mer än 1000 anställda</label>
+      <label for="question" style="display: block;">Fråga</label>                                           
+      <textarea name="question" id="question" placeholder="Skriv din fråga..." rows="4"                     
+      cols="50"></textarea>  <br>
+      <input type="checkbox" name="wantNewsletter" id="newsletter" value="Ja">
+      <label for="newsletter">Nyhetsbrev</label>
+      <input type="hidden" name="wantNewsletter" value="Nej">
+      <input type="checkbox" name="wantPhoneContact" id="wantPhoneContact" value="Ja">
+      <label for="wantPhoneContact">Kontaktad på telefon</label>
+      <input type="hidden" name="wantPhoneContact" value="Nej">
+    </form>
+    </div>
+    <iframe src="footer.html" title="contactinfo" width="800" height="220" frameborder="0"></iframe>
+  </body>
+</html>
