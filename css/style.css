@@ -1,0 +1,72 @@
+.header {
+    background-image: url('../images/skrot.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    background-position: 20% 80%;  /* 50% horisontellt, 20% uppifrån */                        
+
+}
+
+.header img {
+    margin-top: 75px;                                                                      
+    height: 270px;                                                                       
+    margin-left: 30px;                                                                     
+    width: 220px;                                                                        
+    backdrop-filter: blur(4px);
+    border-radius: 200px;
+}
+
+.menu
+{
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.menu a
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 165, 0, 0.8);
+    padding: 1em;
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+
+.menu a:hover 
+{
+    background-color: orange;
+    color:white;
+}
+
+.productlist li 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.productlist table 
+{
+    border-color: green;;
+}
+
+.medialist {                                                                               
+    position: relative;                                                                    
+}                                                                                          
+                                                                                           
+.medialist::before {                                                                     
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;                                                                          
+    background-image: url('../images/mediabackground.jpg');
+    background-size: cover;                                                                
+    background-position: center;                                                         
+    opacity: 0.4;
+    z-index: -1;                                                                           
+}
