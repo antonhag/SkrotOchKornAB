@@ -8,25 +8,44 @@
   </head>
   <body>
     <iframe src="header.html" width="100%" height="420" frameborder="0"></iframe>
-    <div class="medialist">                                                                                      
+    <div class="container">
+      <aside class="sidebar-left">
+        <nav class="menu">
+          <a href="index.html">Startsida</a>
+          <a href="products.html">Produkter</a>
+          <a href="contactus.html">Kontakta oss</a>
+          <a href="contact.html">Kontaktformulär</a>
+          <a href="media.html">Media</a>
+        </nav>
+      </aside>
+      <div class="medialist">                                                                                      
         <div>                                                                                    
           <h4>Lastbil</h4>                                                                       
-          <video src="videos/truck.mp4" width="400" height="300" controls muted></video>       
+          <video src="videos/truck.mp4" controls muted></video>
         </div>                                                                                   
         <div>                                                                                  
           <h4>Lyftkran</h4>
-          <video src="videos/crane.mp4" width="400" height="300" controls muted></video>         
+          <video src="videos/crane.mp4" controls muted></video>         
         </div>
         <div>                                                                                    
           <h4>Grävskopa</h4>                                                                   
-          <video src="videos/backhoe.mp4" width="400" height="300" controls muted></video>
+          <video src="videos/backhoe.mp4" controls muted></video>
         </div>                                                                                   
         <div>
           <h4>How powerful bulldozers work</h4>                                                  
-          <iframe width="400" height="300" src="https://www.youtube.com/embed/hJIBp98DztA"     
-      ...></iframe>                                                                              
+          <iframe src="https://www.youtube.com/embed/hJIBp98DztA" title="How powerful bulldozers work" frameborder="0" allowfullscreen></iframe>                                                                              
         </div>
-      </div>  
-      <iframe src="footer.html" title="contactinfo" width="800" height="220" frameborder="0"></iframe>
+      </div>
+      <aside class="sidebar-right">
+        <h4>Öppettider</h4>
+        <p>Mån–Fre: 07:00–17:00</p>
+        <p>Lördag: 08:00–13:00</p>
+        <p>Söndag: Stängt</p>
+        <h4>Kontakt</h4>
+        <p>Tel: 016-123 45 67</p>
+        <p><a href="mailto:info@skrotkorn.se">info@skrotkorn.se</a></p>
+      </aside>
+    </div>
+    <iframe src="footer.html" title="contactinfo" width="100%" height="220" frameborder="0"></iframe>
   </body>
 </html>
